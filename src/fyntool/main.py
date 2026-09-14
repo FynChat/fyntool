@@ -16,7 +16,7 @@ import subparse
 CONFIG_DIR = Path.home() / ".config" / "fyntool"
 REPOS_FILE = CONFIG_DIR / "repos.json"
 CONFIG_FILE = CONFIG_DIR / "config.json"
-VERSION = "0.1.0"
+VERSION = "1.0.0"
 
 
 def detect_os():
