@@ -10,9 +10,7 @@ Fyn dev tool to create projects, manage docker, git repos and more.
 
 ### Install globally with uv tool  [Recommended]
 ```bash
-uv tool install --from /home/grigoriy/tools/fyntool fyntool
-# or from git
-uv tool install --from git+https://github.com/your/repo fyntool
+uv tool install --from git+https://github.com/FynChat/fyntool fyntool
 ```
 This places `fyntool` on your PATH via `~/.local/bin`. Run `fyntool --help` anywhere.
 
@@ -201,4 +199,4 @@ See `docs/ci_cd_beginner.md` for a simple GitHub Actions workflow that runs `fyn
 All install commands are OS-aware.
 
 ## License
-MIT
+[MIT License](LICENSE)
