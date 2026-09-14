@@ -7,7 +7,7 @@ Thanks for your interest! This guide will help you contribute.
 2. Create a branch: `git checkout -b feat/your-feature`
 3. Install with uv tool:
    ```bash
-   uv tool install --from /path/to/fyntool fyntool
+   uv tool install --from git+https://github.com/FynChat/fyntool fyntool
    ```
    Or dev install:
    ```bash
