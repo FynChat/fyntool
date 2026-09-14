@@ -1,0 +1,20 @@
+[project]
+name = "fyntool"
+version = "1.0.0"
+description = "A dev tool to create project, manage docker, git remote repositories and more."
+readme = "README.md"
+authors = [
+    { name = "Giovani", email = "xoppee.ru@yandex.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "questionary>=2.1.1",
+    "subparse>=0.6",
+]
+
+[project.scripts]
+fyntool = "fyntool:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
